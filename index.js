@@ -38,3 +38,10 @@ function fun11() {
 function fun12() {
   alert ('  " Welcome to Promach " , Location : G - R1L1 ' ) ;
 }
+function fun13() {
+  alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
+}function fun14() {
+  alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
+}function fun15() {
+  alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
+}
