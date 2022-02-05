@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box ;margin: 0;padding: 0;
+}
+body{
+    margin: 0;padding: 0;
+    background-color: #ddd ;
+}
+.btn1:hover{
+background-color: blue;
+color: white;
+}
+.bg1{
+    background-color: #0d6efd;;
+}
+a{
+    text-decoration: none;
+}
