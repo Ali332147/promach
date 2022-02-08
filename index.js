@@ -47,7 +47,7 @@ function fun14() {
 function fun15() {
   alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
 }
-// from here
+
 function fun16() {
   alert ('  " Welcome to Promach " , Location : G - R1L11 ' ) ;
 }
