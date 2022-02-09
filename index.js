@@ -153,7 +153,7 @@ function fun49() {
   alert ('  " Welcome to Promach " , Location : G - R1L8 ' ) ;
 }
 function fun50() {
-  alert ('  " Welcome to Promach " , Location : C - R1L11 + R1L11 ' ) ;
+  alert ('  " Welcome to Promach " , Location : G - R1L11 + R1L12 ' ) ;
 }
 function fun51() {
   alert ('  " Welcome to Promach " , Location : H - R2L12 ' ) ;
