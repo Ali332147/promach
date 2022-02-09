@@ -45,7 +45,7 @@ function fun14() {
   alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
 }
 function fun15() {
-  alert ('  " Welcome to Promach " , Location : Tom Places ' ) ;
+  alert ('  " Welcome to Promach " , Location : C - R4L1 ' ) ;
 }
 
 function fun16() {
@@ -145,4 +145,25 @@ function fun46() {
 }
 function fun47() {
   alert ('  " Welcome to Promach " , Location : C - R2L9 ---R2L12 ' ) ;
+}
+function fun48() {
+  alert ('  " Welcome to Promach " , Location : H - R3L1 , R.SIDE ' ) ;
+}
+function fun49() {
+  alert ('  " Welcome to Promach " , Location : G - R1L8 ' ) ;
+}
+function fun50() {
+  alert ('  " Welcome to Promach " , Location : C - R1L11 + R1L11 ' ) ;
+}
+function fun51() {
+  alert ('  " Welcome to Promach " , Location : H - R2L12 ' ) ;
+}
+function fun52() {
+  alert ('  " Welcome to Promach " , Location : H - R3L7 ' ) ;
+}
+function fun53() {
+  alert ('  " Welcome to Promach " , Location : G - R3L1 ' ) ;
+}
+function fun54() {
+  alert ('  " Welcome to Promach " , Location : G - R3L7 ' ) ;
 }
