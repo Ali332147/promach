@@ -24,7 +24,7 @@ function fun7() {
   alert ('  " Welcome to Promach " , Location : C - R4L1 ... C - R4L6 ' ) ;
 }
 function fun8() {
-  alert ('  " Welcome to Promach " , Location : G - R4L12 + R1L6 ' ) ;
+  alert ('  " Welcome to Promach " , Location : G - R4L12 + R1L6 + F.Shelf ' ) ;
 }
 function fun9() {
   alert ('  " Welcome to Promach " , Location : G - R1L9 ' ) ;
@@ -167,3 +167,40 @@ function fun53() {
 function fun54() {
   alert ('  " Welcome to Promach " , Location : G - R3L7 ' ) ;
 }
+function fun55() {
+  alert ('  " Welcome to Promach " , Location : G - R3L7 ' ) ;
+}
+function fun56() {
+  alert ('  " Welcome to Promach " , Location : H - R1L6 ' ) ;
+}
+function fun57() {
+  alert ('  " Welcome to Promach " , Location : H - R3L8 L.SIDE ' ) ;
+}
+function fun58() {
+  alert ('  " Welcome to Promach " , Location : H - R3L8 ' ) ;
+}
+function fun59() {
+  alert ('  " Welcome to Promach " , Location : H - R3L9 ' ) ;
+}
+function fun60() {
+  alert ('  " Welcome to Promach " , Location : Front Shelf ' ) ;
+}
+function fun61() {
+  alert ('  " Welcome to Promach " , Location : F.Shelf ' ) ;
+}
+function fun62() {
+  alert ('  " Welcome to Promach " , Location : F.Shelf ' ) ;
+}
+function fun63() {
+  alert ('  " Welcome to Promach " , Location : G - R2L7 ' ) ;
+}
+function fun64() {
+  alert ('  " Welcome to Promach " , Location : G - R2L7 ' ) ;
+}
+function fun65() {
+  alert ('  " Welcome to Promach " , Location : D - R3L11 ' ) ;
+}
+function fun66() {
+  alert ('  " Welcome to Promach " , Location : D - R3L12 ' ) ;
+}
+
