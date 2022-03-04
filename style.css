@@ -1,18 +1,38 @@
-*{
-    box-sizing: border-box ;margin: 0;padding: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
-    margin: 0;padding: 0;
-    background-color: #ddd ;
-    
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(78, 75, 75); */
 }
-.btn1:hover{
-background-color: blue;
-color: white;
+
+.btn-size {
+    width: 75px;
+    height: 45px;
 }
-.bg1{
-    background-color: #0d6efd;;
+
+.btn1:hover {
+    background-color: #0d6efd;
+    color: white;
 }
-a{
+
+.bg1 {
+    background-color: #0d6efd;
+    ;
+}
+
+a {
     text-decoration: none;
+}
+
+.border1 {
+    border: 1px dotted lightg;
+    padding: 18px 0 20px 0;
+    border-radius: 5px;
+    width: 83%;
+    margin: 0 auto;
 }

@@ -1,885 +1,1164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promach</title>
-    <script
-      src="https://kit.fontawesome.com/4af08102b3.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <script src="https://kit.fontawesome.com/4af08102b3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icon/print">
+</head>
 
-  <body>
+<body style="background-color: #282A35!important;" class="text">
     <header class="mt-4">
-      <marquee class="text-dark fs-2 fw-bolder" behavior="" direction=""
-        >WELCOME TO
-        <span class="text-warning fw-bolder font"
-          >MODERN PACKAGING . . . . .</span
+        <marquee class="text-white fs-2 fw-bolder" behavior="" direction="">WELCOME TO
+            <span class="text-primary  fw-bolder font">MODERN PACKAGING . . . . .</span
         >
       </marquee>
-      <h2 class="text-uppercase text-center mb-4">
-        Parts collection tiny Software
-      </h2>
+      <h3 class="text-uppercase fw-bolder text-center text-white mb-4 ">
+        Parts collection tiny Software . . . . .     <button class="rounded-3 bg-warning" title="Print Me"
+         onclick="window.print()"><i class="fa fa-print bg-primary" aria-hidden="true"></i></button>
+      </h3>
 
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly">
-          <div class="col">
-            <button
-              title="Click me"
-              class="btn1 p-2 rounded-3 fs-4"
-              onclick="fun()"
-            >
-              71202
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="btn1 p-2 rounded-3 fs-4"
-              disabled
-              onclick="fun1()"
-            >
-              71267
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="btn1 p-2 rounded-3 fs-4"
-              onclick="fun2()"
-            >
-              71308
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun3()"
-            >
-              71338
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun4()"
-            >
-              71399
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun5()"
-            >
-              71002
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun6()"
-            >
-              71406
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun7()"
-            >
-              70343
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun8()"
-            >
-              71416
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun9()"
-            >
-              71418
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun10()"
-            >
-              71428
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun11()"
-            >
-              71447
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun12()"
-            >
-              71461
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun13()"
-            >
-              70999
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun14()"
-            >
-              70485
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun15()"
-            >
-              71545
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun16()"
-            >
-              71481
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun17()"
-            >
-              71503
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun18()"
-            >
-              71550
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun19()"
-            >
-              71513
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun20()"
-            >
-              71539
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun21()"
-            >
-              71561
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun22()"
-            >
-              71558
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun23()"
-            >
-              71515
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun24()"
-            >
-              71566
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun25()"
-            >
-              71511
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun26()"
-            >
-              71528
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun26()"
-            >
-              71565
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun27()"
-            >
-              71564
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun28()"
-            >
-              71579
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun29()"
-            >
-              71569
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun30()"
-            >
-              71592
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun31()"
-            >
-              71600
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun32()"
-            >
-              71617
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun33()"
-            >
-              71633
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun34()"
-            >
-              71675
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun35()"
-            >
-              71679
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun36()"
-            >
-              70758
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun37()"
-            >
-              71629
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun38()"
-            >
-              71639
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun39()"
-            >
-              71656
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun40()"
-            >
-              71666
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun41()"
-            >
-              71672
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun42()"
-            >
-              71680
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun43()"
-            >
-              71626
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun44()"
-            >
-              71674
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun45()"
-            >
-              71349
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun46()"
-            >
-              71575
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun47()"
-            >
-              71199
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun48()"
-            >
-              71557
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun49()"
-            >
-              71438
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun50()"
-            >
-              71411
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun51()"
-            >
-              71678
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun52()"
-            >
-              71658
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun53()"
-            >
-              71149
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun54()"
-            >
-              70644
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun55()"
-            >
-              CP-80
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun56()"
-            >
-              71508
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun57()"
-            >
-              71667
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun58()"
-            >
-              71638
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun59()"
-            >
-              71683
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun60()"
-            >
-              71418
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun61()"
-            >
-              70616
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun62()"
-            >
-              71104
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun63()"
-            >
-              71464
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun64()"
-            >
-              71465
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun65()"
-            >
-              CP- 83
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun66()"
-            >
-              CP- 81
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun()"
-            >
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun()"
-            >
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              disabled
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="container pt-2">
-        <div class="row row-cols-auto justify-content-evenly mt-3">
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-
-          <div class="col">
-            <button title="Click me" class="p-2 btn1 rounded-3 fs-4" onclick="fun()">
-              71275
-            </button>
-          </div>
-          <div class="col">
-            <button
-              title="Click me"
-              class="p-2 btn1 rounded-3 fs-4"
-              onclick="fun1()"
-            >
-              71275
-            </button>
-          </div>
-        </div>
-      </div> -->
+        <section class="border1">
+          <div class="container pt-2 flex-sm-nowrap ">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap ">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun()"
+                >
+                  71202
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun1()"
+                >
+                  70616
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun2()"
+                >
+                  cp- 20
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun3()"
+                >
+                  71338
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun4()"
+                >
+                  71399
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun5()"
+                >
+                  cp-148
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun6()"
+                >
+                  cp- 75
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun7()"
+                >
+                  cp-173
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun8()"
+                >
+                  71416
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun9()"
+                >
+                  cp-135
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun10()"
+                >
+                  71428
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun11()"
+                >
+                  cp-066
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"   
+                  onclick="fun12()"
+                >
+                  cp-197
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun13()"
+                >
+                  cp- 54
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun14()"
+                >
+                  cp-137
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun15()"
+                >
+                  cp- 24
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun16()"
+                >
+                  cp- 37
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun17()"
+                >
+                  71503
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun18()"
+                >
+                  cw- 17
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun19()"
+                >
+                  cp-184
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun20()"
+                >
+                  cp-181
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun21()"
+                >
+                  cp- 40
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun22()"
+                >
+                  71568
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun23()"
+                >
+                  cp-126
+                </button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun24()"
+                >
+                  71566
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun25()"
+                >
+                  71511
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun100()"
+                >
+                  cp-260
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun26()"
+                >
+                  71565
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun27()"
+                >
+                  cp-247
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun28()"
+                >
+                  cw- 10
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun29()"
+                >
+                  cp- 29
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun30()"
+                >
+                  71592
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun31()"
+                >
+                  71600
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun32()"
+                >
+                  cp-220
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun33()"
+                >
+                  cp-185
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun34()"
+                >
+                  cp-64
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun35()"
+                >
+                  cp-105
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun36()"
+                >
+                  cp-111
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun37()"
+                >
+                  71629
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun38()"
+                >
+                  cp-188
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun39()"
+                >
+                  cp-117
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun40()"
+                >
+                  cp-175
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun41()"
+                >
+                cp-139
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun42()"
+                >
+                  cp- 95
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun43()"
+                >
+                  cp-141
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun44()"
+                >
+                  cp-180
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun45()"
+                >
+                  71349
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun46()"
+                >
+                  cp- 22
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun47()"
+                >
+                  71199
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun48()"
+                >
+                  cp- 19
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun49()"
+                >
+                  71438
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun50()"
+                >
+                  cp-51
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun51()"
+                >
+                  cp- 25
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun52()"
+                >
+                  71660
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun53()"
+                >
+                  cp-118
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun54()"
+                >
+                  cp- 89
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun55()"
+                >
+                  cp-126
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun56()"
+                >
+                  71508
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun57()"
+                >
+                  cp-221
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun58()"
+                >
+                  cp-78
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun59()"
+                >
+                  71492
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  
+                  onclick="fun60()"
+                >
+                  71638
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun61()"
+                >
+                  cp- 49
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun62()"
+                >
+                  71104
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun63()"
+                >
+                  cp- 99
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun64()"
+                >
+                  cp-88
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun65()"
+                >
+                  CP- 83
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun66()"
+                >
+                  cp-240
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun67()"
+                >
+                  cp-234
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun68()"
+                >
+                  cp-200
+                </button>
+              </div>
+    
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun69()"
+                >
+                  cp-143
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun70()"
+                >
+                  cp-174
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" onclick="fun71()">
+                  cp-91
+                </button>
+              </div>
+              
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun72()"
+                >
+                  cp-131
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" onclick="fun73()">
+                  cp-101
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 rounded-3 fs-5" 
+                  onclick="fun74()"
+                >
+                  cp-119
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                 onclick="fun75()">
+                  cp-121
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"
+                  onclick="fun76()"
+                >
+                  cp-122
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                 onclick="fun77()">
+                  cp-125
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" 
+                  onclick="fun78()"
+                >
+                  cp-107
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                 onclick="fun79()">
+                  cp-87
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun80()"
+                >
+                  cp-124
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size  rounded-3 fs-5"
+                  onclick="fun81()">
+                  cp- 39
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size  rounded-3 fs-5" 
+                  onclick="fun82()"
+                >
+                  cp- 43
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                onclick="fun83()">
+                  cp-127
+                </button>
+              </div>
+              
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun84()"
+                >
+                  cp-154
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                 onclick="fun85()">
+                  cp-142
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"    
+                  onclick="fun86()"
+                >
+                  cp-144
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"  
+                 onclick="fun87()">
+                  cp-165
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"  
+                  onclick="fun88()"
+                >
+                  cp-120
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"  
+                 onclick="fun89()">
+                  cp-189
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"   
+                  onclick="fun90()"
+                >
+                  cp-243
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"  
+                 onclick="fun91()">
+                  cr-012
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"     
+                  onclick="fun108()"
+                >
+                  cp-229
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size  rounded-3 fs-5"  
+                  onclick="fun98()">
+                  cp-245
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size  rounded-3 fs-5"  
+                  onclick="fun94()"
+                >
+                  cp-255
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" 
+                onclick="fun97()">
+                  cp-213
+                </button>
+              </div>
+              
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"     
+                  onclick="fun101()"
+                >
+                  cp-233
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"  
+                 onclick="fun110()">
+                  cp-217
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"    
+                  onclick="fun86()"
+                >
+                  cp-204
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"    
+                 onclick="fun87()">
+                  cp-198
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"   
+                  onclick="fun88()"
+                >
+                  cp-146
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"   
+                 onclick="fun89()">
+                  cp-206
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"   
+                  onclick="fun109()"
+                >
+                  cp-257
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"   
+                 onclick="fun91()">
+                  cr- 22
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"       
+                  onclick="fun92()"
+                >
+                  cp-256
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size  rounded-3 fs-5" 
+                  onclick="fun93()">
+                  cp- 57
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size  rounded-3 fs-5"   
+                  onclick="fun107()"
+                >
+                  cp-224
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-2 flex-sm-nowrap">
+            <div class="row row-cols-auto justify-content-evenly flex-sm-nowrap mt-3">
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5"  
+                onclick="fun102()">
+                  cp-258
+                </button>
+              </div>
+              
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"    
+                  onclick="fun103()"
+                >
+                  cp-250
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" disabled   
+                 onclick="fun98()">
+                  cp-217
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" disabled   
+                  onclick="fun99()"
+                >
+                  cp-204
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" disabled   
+                 onclick="fun100()">
+                  cp-198
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" disabled  
+                  onclick="fun101()"
+                >
+                  cp-146
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" disabled   
+                 onclick="fun102()">
+                  cp-206
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5"   
+                  onclick="fun99()"
+                >
+                  cp-136
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size rounded-3 fs-5" disabled  
+                 onclick="fun104()">
+                  cr- 22
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size rounded-3 fs-5" disabled      
+                  onclick="fun105()"
+                >
+                  cp-256
+                </button>
+              </div>
+    
+              <div class="col">
+                <button title="Click me" class="p-1 btn1 btn-size  rounded-3 fs-5" disabled 
+                  onclick="fun106()">
+                  cp-174
+                </button>
+              </div>
+              <div class="col">
+                <button
+                  title="Click me"
+                  class="p-1 btn1 btn-size  rounded-3 fs-5" disabled 
+                  onclick="fun107()"
+                >
+                  cp- 43
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
     </header>
     <div class="container-fluid m-0 p-0">
       <footer class="bg1 text-center text-white mt-5 py-5">
         <div class="">
           <p>
-            All Rights Reserved By &copy;<a
-              title="Click Me"
-              href="https://www.modernpackaging.com/"
-              target="_blank"
-              ><span class="bg-warning mx-1 rounded-3 text-dark p-1"
+            All Rights Reserved By &copy; <a title="Click Me" href="https://www.modernpackaging.com/" target="_blank"><span class="bg-warning mx-1 rounded-3 text-dark p-1 fw-bolder"
                 >Promach</span
               >
-            </a>
-            , 2022
-          </p>
-          <p>
-            <small class="text-black"
-              >Created By Jaber
+            </a> , 2022 .
+            </p>
+            <p>
+                <small class="text-black">Created By Jaber
               <span class="bg-warning p-1 rounded-3">
                 <a
-                  class="list-unstyled"
-                  href="https://ali332147.github.io/Website-1/"
+                  class="list-unstyled text-dark fw-bolder"
+                  href="https://ali332147.github.io/Website-1/" title="Click Me"
                   target="_blank"
                   >Ali</a
                 >
-              </span></small
-            >
-          </p>
-        </div>
-      </footer>
-    </div>
+              </span></small>
+            </p>
+            </div>
+            </footer>
+            </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="index.js"></script>
+</body>
+
 </html>
