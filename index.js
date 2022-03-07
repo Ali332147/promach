@@ -23,7 +23,7 @@ function fun5() {
 }
 
 function fun6() {
-  alert('  " Welcome to Promach " , Location : Tom Places ');
+  alert('  " Welcome to Promach " , Location : G - R4L9 ');
 }
 
 function fun7() {
@@ -67,7 +67,7 @@ function fun16() {
 }
 
 function fun17() {
-  alert('  " Welcome to Promach " , Location : G - R1L1 ');
+  alert('  " Welcome to Promach " , Location : H - R1L1 ');
 }
 
 function fun18() {
@@ -123,7 +123,7 @@ function fun30() {
 }
 
 function fun31() {
-  alert('  " Welcome to Promach " , Location : H - R2L7 ');
+  alert('  " Welcome to Promach " , Location : C - R4L3 ');
 }
 
 function fun32() {
@@ -355,7 +355,7 @@ function fun88() {
 }
 
 function fun89() {
-  alert('  " Welcome to Promach " , Location : D - R3L1 + A - R2C8 Tom Shelf  ');
+  alert('  " Welcome to Promach " , Location : D - R3L1   ');
 }
 
 function fun90() {
@@ -410,12 +410,24 @@ function fun103() {
   alert('  " Welcome to Promach " , Location : C - R1L2    ');
 }
 
+function fun104() {
+  alert('  " Welcome to Promach " , Location : D - R1L9    ');
+}
+
+function fun105() {
+  alert('  " Welcome to Promach " , Location : D - R1L9 L.Side    ');
+}
+
+function fun106() {
+  alert('  " Welcome to Promach " , Location : D - R1L12    ');
+}
+
 function fun107() {
   alert('  " Welcome to Promach " , Location : C - R1L4 R.side  ');
 }
 
 function fun108() {
-  alert('  " Welcome to Promach " , Location : A - R2C5 Tom Shelf  ');
+  alert('  " Welcome to Promach " , Location : G - R3L7  ');
 }
 
 function fun109() {
@@ -424,4 +436,16 @@ function fun109() {
 
 function fun110() {
   alert('  " Welcome to Promach " , Location : C - R1L6 R.Side  ');
+}
+
+function fun111() {
+  alert('  " Welcome to Promach " , Location : G - R3L12 + Tom Shelf , B - R2C5   ');
+}
+
+function fun112() {
+  alert('  " Welcome to Promach " , Location : G - R4C10   ');
+}
+
+function fun113() {
+  alert('  " Welcome to Promach " , Location : G - R1L12   ');
 }
